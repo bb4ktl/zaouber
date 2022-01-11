@@ -1,0 +1,83 @@
+/*CSS cascading style sheet*/
+
+body{
+	background-color:rgb(255,255,66);
+}
+h1{
+	color: rgb(95,95,95);
+	font-weight: bold;
+	font-size: 46px; 
+}
+section{
+	display: inline-grid;
+	height: 95%;
+	margin-top: 10px;
+	margin-left:37%;
+}
+
+
+nav ul li {
+	display: inline-block;
+	padding: 5px;	
+}
+
+fieldset {
+	border-radius: 48px;
+	width: 38%;
+}
+
+#logoico{
+	float: left;
+}
+#malnutrition{
+	float: right;
+}
+#Enfants_sans_suivi{
+	float:left;
+}
+#famine{
+	float: right;
+}
+#hygene{
+	float:none;
+}
+.menu-acc{
+	border-radius: 8px;
+	text-decoration: none;
+	text-align: center;
+	background-color: rgb(241,61,240);
+
+}
+
+.top-menu{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+	color: rgb(95,95,95);
+}
+
+/* CSS contact.html*/
+.arrondi{
+	border-radius: 8px;
+	font-weight:bold
+	font-size:32px;
+	text-decoration: none;
+	text-align: left;
+	background-color: rgb(241,61,240);
+}
+.text-left{
+	text-align: left;
+}
+.levide{
+	color: rgb(255,255,66);
+}
+
+/*présentation */
+
+.sectionpr{
+	display: inline-grid;
+	height: 95%;
+	margin-top: 10px;
+	margin-left:37%;
+}

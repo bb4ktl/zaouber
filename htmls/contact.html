@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacter Keep Hope</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/css.css">
+</head>
+<body>
+	<header>
+		<h1 class="text-center">Contacter Keep Hope(KH)</h1>
+	</header>
+	<nav class="text-center">
+		<p >
+			<h2>
+				<ul>
+					<li><a href="..\htmls\presentation.html" class="menu-acc">Présentation</a></li>
+					<li><a href="..\htmls\actions.html" class="menu-acc">Nos Actions</a></li>
+					<li><a href="..\htmls\contact.html" class="menu-acc">Nous Contacter</a></li>
+				</ul>
+			</h2>
+		</p>
+	</nav>
+	<p >
+		<h3 class="text-center">Veuillez remplir le formulaire ci-dessous</h3>
+	</p>
+	<section>
+	<form >
+		<fieldset >
+			<p class="text-center">
+				<label for="NomComplet">Noms et Prenoms :<span class="levide">___</span> </label>
+				<input type="text" name="NomComplet" id="NomComplet" size="20" maxlength="50" placeholder="nom complet" required /><br/><br/>
+				<label for="email">Email :<span class="levide">.____________</span> </label>
+				<input type="mail" name="email" id="email" placeholder="EX: mail@site.com" required /><br/><br/>
+				<label for="numero">Numero de téléphone : </label>
+				<input type="text" name="numero" id="numero" required /><br/><br/>
+				<label >&nbsp Genre :<span class="levide">____________</span> </label>
+				<input type="radio" name="genre" id="femme" value="Femme" required />
+				<label for="femme">Femme</label>
+				<input type="radio" name="genre" id="homme" value="Homme" />
+				<label for="homme">Homme</label><br /><br/>
+				<label for="pays">Pays :<span class="levide">_____________</span> </label>
+				<select name="pays" id="pays">
+					<option value="Angola">Angola</option>
+					<option value="Cameroun">Cameroun</option>
+					<option value="Côte d'ivoire">Côte d'ivoire</option>
+					<option value="Tchad">Tchad</option>
+					<option value="Gabon">Gabon</option>
+					<option value="Niger">Niger</option>
+					<option value="Nigeria">Nigeria</option>
+					<option value="RDC">RDC</option>
+				</select><span class="levide">______</span><br/><br/>
+				<label for="cmt">Message :<span class="levide">_____________________________</span>  <br/><br/></label>
+				<textarea name="cmt" id="cmt" rows="12" cols="38"></textarea><br/>
+				<input type="submit" value="Envoyer">		
+			</p>
+		</fieldset>
+	</form>
+	</section>
+</body>
+<footer>
+	<br/>
+	<p class="text-center"> &nbsp &nbsp © 2009-2020 | &nbsp <a href="..\accueil.html">KeepHope</a> &nbsp | <a href="..\htmls\contact.html">Contact us</a></p>
+</footer>
+</html>
